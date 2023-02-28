@@ -23,7 +23,6 @@ This document describes how to install RabbitMQ on Ubuntu-18.04.x.
 
 - Install RabbitMQ:
 
-
 ```
 #!/usr/bin/sh
 sudo apt-get install curl gnupg apt-transport-https -y

@@ -44,7 +44,7 @@ This document describes how to install api-creator-server on Ubuntu-18.04.x.
 
 - Confirm executable commands
 
-         $ cd /home/<user>/nodejs/api-creator-server
+        $ cd /home/<user>/nodejs/api-creator-server
         $ npm run
 
 - if you don't want to run in schedule, type:
