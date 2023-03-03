@@ -16,7 +16,7 @@ This document describes how to install Redis on Ubuntu-18.04.x.
         $ redis-cli info | grep 'redis_version'
 
 
-Edit the file `/etc/redis/redis.conf` to setting port and add redis to systemd startup management:
+Edit the file `/etc/redis/redis.conf` to setting port and add redis to systemd startup management (To enable the service after power on):
 
         ...
         port 6378

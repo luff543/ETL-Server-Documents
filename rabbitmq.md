@@ -59,7 +59,6 @@ sudo apt-get install -y erlang-base \
 sudo apt-get install rabbitmq-server -y --fix-missing
 ```
 
-
 - (**TLS optional**) Put the files **cert.crt**, **key.crt** into `/etc/rabbitmq` directory, then edit the file `/etc/rabbitmq/rabbitmq.config` to support TLS v1.1 and v1.2:
 
         [
@@ -97,6 +96,7 @@ sudo apt-get install rabbitmq-server -y --fix-missing
         $ sudo rabbitmq-plugins enable rabbitmq_management
 
 - To enable the management plugin:
+
         $ sudo systemctl status rabbitmq-server.service
         $ ss -tunelp | grep 5672
         $ ss -tunelp | grep 15672

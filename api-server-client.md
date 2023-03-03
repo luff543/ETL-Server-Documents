@@ -5,7 +5,7 @@ This document describes how to install api-creator-server on Ubuntu-18.04.x.
 
 # Versions
 
-- **api-creator-client** 2.0.0.
+- **api-creator-client** 2.0.0. ([github](https://github.com/luff543/api-server-client))
 
 # Requirements
 
@@ -16,9 +16,12 @@ This document describes how to install api-creator-server on Ubuntu-18.04.x.
 
 - Use TextCrawler3 fix somthing code
 
-        Replace http://140.115.54.50:8001/api/extractors/create to http://<public>:8001/api/extractors/create
+        Replace http://140.115.54.50:8001/api/extractors/create to http://<public ip>:8001/api/extractors/create
+![Replace rabbitmq host, user and password](img/textcrawler-api-server-client.png)
 
-- Upload project to /home/<user>/nodejs
+- Upload project to /home/\<user\>/nodejs
+
+- Go to **[here](https://eventgo.widm.csie.ncu.edu.tw/etl/node_modules.tar.gz)** download **node_modules.tar.gz**.
 
 - Install
 
