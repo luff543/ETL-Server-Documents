@@ -42,7 +42,7 @@ Edit the file `/etc/redis/redis.conf` to setting port and add redis to systemd s
 
 To open the following ports for internal usage:
 
-- **6379** (and other ports of instances): for Redis.
+- **6378** (and other ports of instances): for Redis.
 
 # Authentication
 
